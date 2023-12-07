@@ -1,4 +1,4 @@
-function stillsMember() {
+function skillsMember() {
     return {
         restrict: 'E',
         scope: {
