@@ -1,8 +1,9 @@
 function stillsMember() {
     return {
         restrict: 'E',
-        templateUrl: '/templates/member.html',
-        controller: 'MemberController',
-        controllerAs: 'memberCtrl'
+        scope: {
+            member: '=member'
+        },
+        templateUrl: 'modules/stills/views/member.html'
     };
 }
